@@ -1,0 +1,39 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environment folders
+venv/
+env/
+.pipenv/
+*.egg-info/
+
+# Ignore model files and Hugging Face cache
+*.bin
+*.json
+*.pt
+*.h5
+*.ckpt
+.cache/
+huggingface/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore the T5 model folder
+t5_gsm8k_model/
